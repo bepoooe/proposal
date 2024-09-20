@@ -1,17 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
-
-
-
 body {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-
   background-size: 1000px;
   background-image: url("https://www.psdgraphics.com/wp-content/uploads/2022/01/white-math-paper-texture.jpg");
   background-position: center center;
+  margin: 0;
 }
 
 .paper {
@@ -19,11 +16,8 @@ body {
   background-size: 500px;
   background-position: center center;
   padding: 20px 100px;
-/*  min-width: 800px; */
-  
   transform: rotateZ(-5deg);
-  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
-  
+  box-shadow: 1px 15px 20px 0px rgba(0, 0, 0, 0.5);
   position: absolute;
 }
 
@@ -38,6 +32,7 @@ body {
 .paper.image {
   padding: 10px;
 }
+
 .paper.image p {
   font-size: 30px;
 }
@@ -45,6 +40,7 @@ body {
 img {
   max-height: 200px;
   width: 100%;
+  object-fit: cover; /* Ensures image fits without distortion */
   user-select: none;
 }
 
@@ -63,11 +59,11 @@ img {
 }
 
 p {
-  font-family: 'Zeyada';
+  font-family: 'Zeyada', cursive;
   font-size: 50px;
-  color: rgb(0,0,100);
+  color: rgb(0, 0, 100);
   opacity: 0.75;
   user-select: none;
-  
-  // filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
+  /* Dropped shadow for text */
+  filter: drop-shadow(2px 1.5px 1px rgba(0, 0, 105, 0.9));
 }
