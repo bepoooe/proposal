@@ -1,4 +1,4 @@
-# Static Website Documentation
+# Documentation
 
 ## Project Structure
 - `index.html` - Main HTML document defining the page structure
