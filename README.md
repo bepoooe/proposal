@@ -1,4 +1,4 @@
-# Documentation
+# Proposal Paper Slides
 
 ## Project Structure
 - `index.html` - Main HTML document defining the page structure
